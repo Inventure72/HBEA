@@ -1,0 +1,21 @@
+HBEA - Matteo Giorgetti - CP2 Interfaces Project
+Official e-mail: Message (1-32 printable ASCII characters):
+Cipher: HBEA
+Ciphertext: B16AED86DA4D076D891D90216B221D7CD3EBC1077D89A5466E0397D60A6CFA9F
+Decrypted: Meet me at the library at 5 PM!!
+Round trip: true
+
+Cipher: XOR
+Ciphertext: DB1216D289327A14F70353D2C13A3F58FF1501C7DB263F55E2574686F9123E15
+Decrypted: Meet me at the library at 5 PM!!
+Round trip: true
+
+Wrong-key HBEA (different e-mail):
+Decrypted (escaped): \uFFFD\uFFFD\uFFFDn\uFFFD\uFFFDv\uFFFDJ\uFFFD\u0004\uFFFD\uFFFD,\uFFFD*\uFFFD|m\u0003\uFFFD\u0010 \uFFFD\uFFFD\uFFFD8b\uFFFD\uFFFD\uFFFD\uFFFD
+Matches original: false
+
+Independent blocks: Hi Anas
+Block 1: D547CFA05FFC8EDF
+Block 2: 683D31912C8623EC
+Block 3: 683D31912C8623EC
+Block 4: 683D31912C8623EC

@@ -1,0 +1,11 @@
+Simplified DES worksheet
+After first round: 00101011
+After swap:       10110010
+K2:               10111001
+E/P(right):       00010100
+XOR K2:           10101101
+S0 | S1:          0101
+P4:               1100
+Left XOR P4:      0111
+Before IP^-1:     01110010
+Ciphered text:    10101100

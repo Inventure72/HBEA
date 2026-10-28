@@ -1,0 +1,16 @@
+PASS TDD null plaintext
+PASS TDD empty plaintext
+PASS TDD more than 32 characters
+PASS TDD non-ASCII plaintext
+PASS TDD control character
+PASS TDD embedded NUL
+PASS TDD short message has NUL padding
+PASS TDD exactly 32 characters has no padding
+PASS TDD trailing spaces preserved
+PASS TDD printable boundaries
+PASS TDD XOR known bits and unchanged input
+PASS TDD XOR mismatched lengths
+PASS TDD XOR null left
+PASS TDD XOR null right
+PASS TDD XOR invalid bit
+RESULT: 15 passed, 0 failed

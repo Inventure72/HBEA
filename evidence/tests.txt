@@ -1,0 +1,70 @@
+PASS TDD null plaintext
+PASS TDD empty plaintext
+PASS TDD more than 32 characters
+PASS TDD non-ASCII plaintext
+PASS TDD control character
+PASS TDD embedded NUL
+PASS TDD short message has NUL padding
+PASS TDD exactly 32 characters has no padding
+PASS TDD trailing spaces preserved
+PASS TDD printable boundaries
+PASS TDD XOR known bits and unchanged input
+PASS TDD XOR mismatched lengths
+PASS TDD XOR null left
+PASS TDD XOR null right
+PASS TDD XOR invalid bit
+PASS BDD Given sample seed, When hashed, Then KS1
+PASS BDD Given sample seed, When hashed, Then KS2
+PASS BDD Given sample seed, When hashed, Then KS3
+PASS BDD Given sample seed, When hashed, Then KS4
+PASS BDD Given sample seed, When hashed, Then KS5
+PASS BDD Given sample seed, When hashed, Then KS6
+PASS BDD Given sample seed, When hashed, Then KS7
+PASS BDD Given sample seed, When hashed, Then KS8
+PASS BDD complete SHA-256 vector
+PASS BDD spaces and capitals produce the same segments
+PASS BDD email normalization is independent of system language
+PASS Null seed rejected
+PASS Blank seed rejected
+PASS RK1 expansion
+PASS IP left L0
+PASS IP right R0
+PASS E(R0)
+PASS E(R0) XOR RK1
+PASS Eight S-boxes
+PASS S1 example 001101 gives 1101
+PASS P permutation
+PASS Complete round function F
+PASS After round 1 L1
+PASS After round 1 R1
+PASS Final permutation reverses IP
+PASS BDD sample seed and message give exact ciphertext
+PASS BDD sample ciphertext decrypts to original
+PASS Lowercase ciphertext accepted
+PASS BDD HBEA inherited default round-trip
+PASS BDD same messenger works with HBEA
+PASS BDD HBEA different email fails to recover message
+PASS HBEA repeated zero blocks encrypt identically
+PASS HBEA 100 deterministic varied-message round trips
+PASS HBEA null ciphertext
+PASS HBEA short ciphertext
+PASS HBEA non-hex ciphertext
+PASS BDD XOR inherited default round-trip
+PASS BDD same messenger works with XOR
+PASS BDD XOR different email fails to recover message
+PASS XOR repeated zero blocks encrypt identically
+PASS XOR 100 deterministic varied-message round trips
+PASS XOR null ciphertext
+PASS XOR short ciphertext
+PASS XOR non-hex ciphertext
+PASS Overloaded encrypt agrees with String method
+PASS Overloaded encrypt accepts short padded message
+PASS HBEA owns its keys after constructor
+PASS XOR owns its key after constructor
+PASS Byte bit order and signed-byte handling
+PASS Bytes/bits round trip
+PASS Hex decoding
+PASS Partial byte rejected
+PASS Permutation requires 1-based positions
+PASS Empty XOR is well-defined
+RESULT: 69 passed, 0 failed

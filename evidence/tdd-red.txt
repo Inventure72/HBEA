@@ -1,0 +1,19 @@
+FAIL TDD null plaintext: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD empty plaintext: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD more than 32 characters: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD non-ASCII plaintext: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD control character: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD embedded NUL: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD short message has NUL padding: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD exactly 32 characters has no padding: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD trailing spaces preserved: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD printable boundaries: java.lang.UnsupportedOperationException: TDD: plaintext handling not implemented
+FAIL TDD XOR known bits: java.lang.UnsupportedOperationException: TDD: XOR not implemented
+FAIL TDD XOR mismatched lengths: java.lang.UnsupportedOperationException: TDD: XOR not implemented
+FAIL TDD XOR null left: java.lang.UnsupportedOperationException: TDD: XOR not implemented
+FAIL TDD XOR null right: java.lang.UnsupportedOperationException: TDD: XOR not implemented
+FAIL TDD XOR invalid bit: java.lang.UnsupportedOperationException: TDD: XOR not implemented
+RESULT: 0 passed, 15 failed
+Exception in thread "main" java.lang.AssertionError: Tests failed: 15
+	at TddTests.summary(TddTests.java:70)
+	at TddTests.main(TddTests.java:75)
